@@ -1,0 +1,387 @@
+body{
+    background-color: black;
+    height: 5000px;
+}
+.navbar{
+    background-color: black;
+    padding-top: 40px;
+}
+
+
+
+
+.navbar .navbar-collapse{
+
+    text-transform: uppercase;
+}
+
+.information{
+    padding-top: 150px;
+    padding-bottom: 60px;
+    background-color:black;
+    color: white;
+}
+
+.information p{
+    font-size: 20px;
+}
+.information .about-me h1{
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: math;
+    font-size: 40px;
+}
+
+
+.Gallery{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: black;
+}
+
+.Gallery .container img{
+    width: 270px;
+    margin-right: 5px;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 1s;
+   
+}
+.copyright{
+    background-color: #292828;
+    color: white;
+    height: 200px;
+    padding-top: 50px;
+}
+.copyright span{
+    font-weight: bold;
+}
+
+.copyright li{
+    margin-right: 10px;
+    margin-top: 14px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 44px;
+    font-size: 20px;
+    color:#908080;
+}
+
+  /* <!--start scroll up--> */
+  .scroll-top{
+    z-index: 99999;
+    position: fixed;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    bottom: 10px;
+    right: 15px;
+    color: black;
+    background-color: #03680d;
+    display: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+  /* <!--end scroll up--> */
+.information .Contact-btn{
+    background-color:#20966b;
+    padding:10px 20px;
+    border-radius: 10px;
+    color: #ddd;
+    transition: .5s;
+    font-size: 20px;
+}
+.information .Contact-btn:hover{
+     background-color: #0f442f;
+     color: white;
+}
+  .home-about{
+    background-color: #262424;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: bold;
+ }
+
+ .home-about a{
+     text-decoration: none;
+     color:#099d64;
+ }
+ .about {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: black;
+    color: white;
+ }
+ .about .container img{
+    width: 100%;
+ }
+
+ .about .container h4{
+      font-family: "Cardo", sans-serif;
+ }
+
+ .about .container i{
+     color:#099d64;
+ }
+ .about .container span{
+    font-weight: bold;
+ }
+
+ .text-about{
+    margin-bottom: 20px;
+ }
+
+ .impoloments{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+
+ }
+ .impoloments p{
+     color: #a8a7a7;
+ }
+ .impoloments span{
+     color: #27a776;
+     width: 70px;
+     height: 3px;
+ }
+
+
+/* start carousel*/
+.carousel { background-color: black;  padding-top: 60px; padding-bottom: 60px; height: 500px;}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 75px;
+    position: relative;
+    left: 47%;
+    top: 58px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+
+.carousel .carousel-caption{
+         color: white;
+         top:-26px;
+}
+.carousel .carousel-inner{
+    height: 100%;
+}
+
+.carousel  .carousel-caption h4{
+     position: relative;
+     top:100px;
+}
+
+.carousel .carousel-indicators li{
+      background-color: #302e2e;
+      border: none;
+      
+}
+.carousel .carousel-indicators .active{
+    background-color: #099d64;
+}
+
+
+/* end carousel*/
+
+
+
+
+/* contact-us */
+.contact-us{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: black;
+    color: white;
+}
+
+.contact-us .loc-mes-call{
+     padding-bottom: 20px;
+}
+
+.contact-us  i{
+     border-radius: 50%;
+     border: 1px solid #099d64;
+     margin-right: 15px;
+     padding: 13px;
+     color: #099d64;
+}
+.contact-us span{
+     font-weight: bold;
+     font-size: 20px;
+}
+.contact-us h5{
+    position: relative;
+    left: 54px;
+    bottom: 18px;
+}
+
+.contact-us input{
+    background-color: #302e2e;
+    border: none;
+}
+.contact-us textarea{
+    background-color: #302e2e;
+    border: none;
+}
+.contact-us .location-font{
+    transition: 1s;
+}
+.location:hover .location-font {
+   background-color: #099d64;
+    color: black;
+}
+
+.offers{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: black;
+    color: white;
+}
+
+.offers .offer{
+     background-color: #262424;
+     padding: 40px;
+     margin-top: 10px;
+}
+
+.offers i{
+     background-color: #099d64;
+     color: white;
+     border-radius:50%;
+     border: 1px solid black;
+     padding: 15px;
+}
+
+
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0px;
+        
+    }
+}
+.socheal-mediaIcon{
+    float: right;
+    padding-top: 15px;
+
+}
+.socheal-mediaIcon li{
+    padding-left: 5px;
+    color: wheat;
+    transition: .5s;
+}
+.socheal-mediaIcon li:hover{
+    color: rgb(231, 182, 92);
+}
+.navbar-nav{
+    position: relative;
+    left:60PX;
+}
+.adorable{
+    margin-bottom: 60px;
+}
+
+.adorable-pricing-a1 .text{
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+}
+.adorable-pricing-a1 p{
+    color: white;
+}
+.adorable-pricing-a2 {
+    margin-top: 72px;
+}
+
+.adorable-pricing-a2  .text{
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+
+}
+.adorable-pricing-a2 p{
+    color: white;
+}
+
+.adorable-pricing-a3
+ {
+    margin-top: 144px;
+}
+
+.adorable-pricing-a3 p{
+    color: white;
+}
+
+.adorable-pricing-a3 .text{
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+}
+
+
+
+
+
+/* <!--start loading overlayd--> */
+.loading-overlayd{
+    background-color: #222;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    top: 0;
+}
+
+.loader {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    animation: rotate 1s linear infinite
+  }
+  .loader::before , .loader::after {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    inset: 0px;
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    animation: prixClipFix 2s linear infinite ;
+  }
+  .loader::after{
+    transform: rotate3d(90, 90, 0, 180deg );
+    border-color: #FF3D00;
+  }
+
+  @keyframes rotate {
+    0%   {transform: rotate(0deg)}
+    100%   {transform: rotate(360deg)}
+  }
+
+  @keyframes prixClipFix {
+      0%   {clip-path:polygon(50% 50%,0 0,0 0,0 0,0 0,0 0)}
+      50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0,100% 0,100% 0)}
+      75%, 100%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+  }
+  /* <!--end loading overlayd--> */
+
+
+.gallery{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+
+.gallery span{
+    color: #27a776;
+    width: 70px;
+    height: 3px;
+}

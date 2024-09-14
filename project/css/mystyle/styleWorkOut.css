@@ -1,0 +1,13 @@
+.socheal-mediaIcon{
+    float: right;
+    padding-top: 15px;
+    color: wheat;
+}
+.navbar-nav{
+    position: relative;
+    left:60PX;
+}
+
+.about img{
+    width: 100%;
+}
